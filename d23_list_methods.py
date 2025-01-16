@@ -1,0 +1,17 @@
+l=[1,2,3,4,6,5]
+print(l)
+l.append(7)
+print(l)
+l.sort(reverse=True)
+print(l)
+print(l.index(5))
+print(l.count(1))
+m=l.copy()
+print(m)
+l.insert(1,456)
+print(l)
+m=[788,454,345]
+l.extend(m)
+print(l)
+k=l+m
+print(k)
