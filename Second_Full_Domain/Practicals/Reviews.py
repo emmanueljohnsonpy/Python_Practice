@@ -22,3 +22,6 @@ def func(x,y):
     
 print(func(4,4))
 print(time.now() - currreeent_time)
+
+
+decorator question
