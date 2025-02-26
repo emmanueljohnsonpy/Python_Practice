@@ -20,8 +20,7 @@ curreeent_time = time
 def func(x,y):
     return x+y
     
-print(func(4,4))
-print(time.now() - currreeent_time)
+# print(func(4,4))
+# print(time.now() - currreeent_time)
 
-
-decorator question
+# decorator question to somthing like *2 some mathematical
