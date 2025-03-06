@@ -1,7 +1,7 @@
 # second largest even number
 
 
-nums = [1, 2, 3, 4, 5, 6, 7]
+nums = [10, 8, 12, 14, 16]
 second = 0
 first = 0
 for i in nums:
