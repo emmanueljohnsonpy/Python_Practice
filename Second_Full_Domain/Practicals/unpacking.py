@@ -51,3 +51,49 @@ print(func(*args))
 
 kwargs = {"a": 1, "b": 2, "c": 3}
 print(func(**kwargs)) """
+
+
+# Unpacking a Tuple or List
+
+""" values = (10, 20, 30)
+a, b, c = values
+print(a, b, c)
+
+numbers = [1, 2, 3]
+x, y, z = numbers
+print(x, y, z) """
+
+
+# Using * for Extended Unpacking
+
+""" numbers = [1, 2, 3, 4, 5]
+a, *b, c = numbers
+print(a, b, c) """
+
+
+# Unpacking in a Function
+
+""" def add(x, y, z):
+    return x + y + z
+
+values = (10, 20, 30) # Unpacking tuple into function arguments
+print(add(*values)) """
+
+
+# Unpacking a Dictionary
+
+""" person = {"name": "Ronaldo", "age": 40}
+
+# Unpacking keys
+a, b = person
+print(a, b)
+
+# Unpacking values
+a, b = person.values()
+print(a, b)
+
+# Unpacking into function parameters
+def asking(name, age):
+    return f"Yo {name} are you {age} years old ?"
+
+print(asking(**person)) """
