@@ -2,7 +2,7 @@
 
 # variadic function that throws error if a kwarg of name 'err' is present
 
-""" def my_func(*args, **kwargs):
+def my_func(*args, **kwargs):
     print(args)
     print(kwargs)
     if "err" in kwargs:
@@ -12,12 +12,12 @@
 try:
     my_func(10, 20, 30, a = "yo", err = "This will trigger error")
 except ValueError as e:
-    print(e) """
+    print(e)
 
 
 # throwing error
 
-""" def my_func(num1, num2):
+def my_func(num1, num2):
     if num2 == 0:
         raise ZeroDivisionError("Dont enter zero as num2")
     return num1 / num2
@@ -25,7 +25,7 @@ except ValueError as e:
 try:
     print(my_func(10, 0))
 except ZeroDivisionError as e:
-    print(e) """
+    print(e)
 
 
 # error handling (except)

@@ -8,3 +8,27 @@ my_func()
 
 my_func = lambda: "Hello World!"
 print(my_func())
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
