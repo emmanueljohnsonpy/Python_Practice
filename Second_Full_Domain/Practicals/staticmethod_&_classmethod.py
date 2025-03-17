@@ -1,3 +1,8 @@
+
+
+# @staticmethod
+
+
 class MathOperations:
     @staticmethod
     def add(x, y):
@@ -6,6 +11,7 @@ class MathOperations:
 print(MathOperations.add(10, 5))
 
 
+# @classmethod
 
 
 class Profile:
